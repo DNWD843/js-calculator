@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/javascript.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Calculator</title>
+  </head>
+  <body>
+    <div id="root">
+      <header class="header">
+        <h1 class="root__title">JS calculator</h1>
+      </header>
+      <main class="content root__content">
+        <div class="calculator">
+          <section class="display calculator__display">
+            <div class="screen display__screen">
+              <span id="screen-content" class="screen__content"></span>
+            </div>
+            <span class="display__label">JS calculator</span>
+          </section>
+          <section class="buttons calculator__buttons">
+            <div class="calculator__buttons-row">
+              <button id="memoryResult" class="calculator__button calculator__button_functional" type="button">MR/MC</button>
+              <button id="memoryPlus" class="calculator__button calculator__button_functional" type="button">M+</button>
+              <button id="memoryMinus" class="calculator__button calculator__button_functional" type="button">M-</button>
+              <button id="backspace" class="calculator__button calculator__button_backspace" type="button">&larr;</button>
+            </div>
+
+            <div class="calculator__buttons-row">
+              <button id="clearScreen" class="calculator__button calculator__button_functional" type="button">C/CE</button>
+              <button id="plusMinus" class="calculator__button calculator__button_functional" type="button">&#177;</button>
+              <button id="percent" class="calculator__button calculator__button_functional" type="button">&#37;</button>
+              <button id="divide" class="calculator__button calculator__button_math" type="button">&divide;</button>
+            </div>
+
+            <div class="calculator__buttons-row">
+              <button id="7" class="calculator__button calculator__button_numeric" type="button">7</button>
+              <button id="8" class="calculator__button calculator__button_numeric" type="button">8</button>
+              <button id="9" class="calculator__button calculator__button_numeric" type="button">9</button>
+              <button id="multiply" class="calculator__button calculator__button_math" type="button">&#215;</button>
+            </div>
+
+            <div class="calculator__buttons-row">
+              <button id="4" class="calculator__button calculator__button_numeric" type="button">4</button>
+              <button id="5" class="calculator__button calculator__button_numeric" type="button">5</button>
+              <button id="6" class="calculator__button calculator__button_numeric" type="button">6</button>
+              <button id="add" class="calculator__button calculator__button_math" type="button">+</button>
+            </div>
+
+            <div class="calculator__buttons-row">
+              <button id="1" class="calculator__button calculator__button_numeric" type="button">1</button>
+              <button id="2" class="calculator__button calculator__button_numeric" type="button">2</button>
+              <button id="3" class="calculator__button calculator__button_numeric" type="button">3</button>
+              <button id="subtract" class="calculator__button calculator__button_math" type="button">-</button>
+            </div>
+
+            <div class="calculator__buttons-row">
+              <button id="0" class="calculator__button calculator__button_numeric calculator__button_large" type="button">0</button>
+              <button id="dot" class="calculator__button calculator__button_numeric" type="button">,</button>
+              <button id="equal" class="calculator__button calculator__button_equal" type="button">=</button>
+            </div>
+
+          </section>
+        </div>
+      </main>
+    </div>
+
+    <script type="module" src="/index.js"></script>
+  </body>
+</html>
