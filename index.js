@@ -1,5 +1,3 @@
-import './index.css'
-
 const display = document.querySelector('.screen')
 const screenContent = display.querySelector('#screen-content')
 
